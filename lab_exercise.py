@@ -14,3 +14,6 @@ SELECT
 n_purchases
 FROM
   `online_retail.online_retail_clv_ml`
+
+frequency.describe()
+frequency.hist(bins=100)
