@@ -8,3 +8,9 @@ FROM
 recency.describe()
 
 recency.hist(bins=100);
+
+%%bigquery frequency
+SELECT
+n_purchases
+FROM
+  `online_retail.online_retail_clv_ml`
