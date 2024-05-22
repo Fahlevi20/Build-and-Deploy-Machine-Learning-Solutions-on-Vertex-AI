@@ -17,3 +17,9 @@ FROM
 
 frequency.describe()
 frequency.hist(bins=100)
+%%bigquery monetary
+
+SELECT
+  target_monetary_value_3M
+FROM
+`online_retail.online_retail_clv_ml`
